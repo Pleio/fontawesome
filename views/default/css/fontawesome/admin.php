@@ -2,7 +2,16 @@
 
 ?>
 /* <style> */
+
+.elgg-icon {
+	min-width: 16px;
+	min-height: 16px;
+	width: auto;
+	height: auto;
+}
+
 .fa {
+	background: none;
 	color: #aaa;
 	font-size: 16px !important;
 }
@@ -20,12 +29,4 @@ h4 > .fa,
 h5 > .fa,
 h6 > .fa {
 	font-size: 1em;
-}
-
-.elgg-icon {
-	background: none;
-	min-width: 16px;
-	min-height: 16px;
-	width: auto;
-	height: auto;
 }
